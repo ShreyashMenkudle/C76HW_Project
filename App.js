@@ -15,10 +15,10 @@ function App() {
       <Stack.Navigator initialRouteName="Home" screenOptions={{
         headerShown: false
       }}>
-        <Stack.Screen name="Home" component={HomeScreen} />
-        <Stack.Screen name="SpaceCraft" component={SpaceCraftScreen} />
-        <Stack.Screen name="StraMap" component={StraMapScreen} />
-        <Stack.Screen name="DailyPic" component={DailyPicScreen} />
+        <Stack.Screen name="HomeScreen" component={HomeScreen} />
+        <Stack.Screen name="SpaceCraftScreen" component={SpaceCraftScreen} />
+        <Stack.Screen name="StraMapScreen" component={StraMapScreen} />
+        <Stack.Screen name="DailyPicScreen" component={DailyPicScreen} />
       </Stack.Navigator>
     </NavigationContainer>
   );
